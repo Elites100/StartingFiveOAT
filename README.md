@@ -25,3 +25,8 @@ When you hover over a player, their key moments are revealed with smooth transit
 2. Install dependencies: `npm install`
 3. Run development server: `npm run dev`
 4. Open http://localhost:5173
+
+## 🌐 Live Demo
+
+You can also view the deployed site here:  
+https://startingfiveoat.vercel.app/
