@@ -1,16 +1,27 @@
-# React + Vite
+##🏀 NBA Starting Five Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive gallery showcasing my all-time greatest NBA Starting Five, built with React and Framer Motion. Each player reveals three iconic moments, highlights, or achievements with smooth animations and mouse-tracked motion effects.
 
-Currently, two official plugins are available:
+##✨ Technologies
+React
+TypeScript
+Framer Motion
+Tailwind CSS
+Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##🚀 Features
+Spring physics for smooth, natural animations
+Each player reveals three iconic highlights when hovered
+Cards respond to mouse movement with parallax effects
+Responsive layout with desktop-focused experience
 
-## React Compiler
+##📍 The Process
+I wanted to build something that combined my love for basketball with interactive design. Instead of a static list of players, I decided to create a dynamic gallery that brings each legend to life. Starting with React, I built out the structure and gradually layered in animations using Framer Motion.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+When you hover over a player, their key moments are revealed with smooth transitions, making the experience feel more immersive. I also added mouse tracking effects so the cards subtly react to movement, giving everything a more fluid and modern feel. While it works across devices, the experience is best on desktop where the animations really shine.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##🚦 Running the Project
+Clone the repository
+Install dependencies: npm install
+Run development server: npm run dev
+Open http://localhost:5173 in your browser
